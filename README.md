@@ -1,0 +1,8 @@
+# Ats_Resume_Generator
+
+This repository contains the source code and configuration for **ats_resume_generator**, a part of the advanced engineering showcase.
+
+## Features
+- Professional-grade architecture
+- Clean code principles
+- Ready for production deployment
