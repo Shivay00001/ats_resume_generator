@@ -132,7 +132,7 @@ class ATSResumeApp(tk.Tk):
         # 8. Certifications
         self._add_section_header("Step 7: Certifications (One per line)", 17)
         self.cert_text = scrolledtext.ScrolledText(self.form_frame, height=4, width=80)
-        self.cert_text.grid(row=18, column=0, padx=10, pady=5, list=20) # list=20 is padding bottom
+        self.cert_text.grid(row=18, column=0, padx=10, pady=5)
 
     def _add_section_header(self, text, row):
         lbl = ttk.Label(self.form_frame, text=text, font=("Arial", 11, "bold"), background="#ddd")
